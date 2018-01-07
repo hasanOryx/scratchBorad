@@ -1,0 +1,69 @@
+As of today Oct 31st:
+
+The minutes of this meeting are superseeding any previouse communication (emails or verbal or documented by other way).
+
+1. Our (Saudi BASF) stock with our vendors: 
+a. There is no stock build up with any of our vendors, which means no single KG availabe with our vendors (local and foriegn) that we have to take as per law, except:
+a.1. Sodium Nitrtrate (53761171), Qty: 86 T, available at Zamil's warehouses as of now (PO#: 4922457099).
+a.2. Dextrin (55220473), Qty: 170 T, available at Zamil's warehouses as of now (PO#: 4922459339).
+a.3. OBSH (no code - replacement for 51611865 & 50360549), Qty: 6 T, available at Zamil's warehouses as of now (PO#: 4936055166).
+a.4. OPTISHEILD (50517879), Qty: 45 + 18 = 72 T, available at Reda's (Trading and Development) warehouses as of now (PO#: 4936751422).
+
+1.2 Procurement will not arramge with any local supplier to keep in his warehouses any Qty for us  without alignment and agreement with Planning
+
+2. Zainab will communicate with both Zamil abd Reda to cinfirm the status if the above mentioned items and orders.
+
+3. Vendors leadtime (LT):
+3.1: Ledtime definition: How many calendar days the RM will arrive BASF's warehouses since the day of making the PO (including 10 days clearance time for imported items)
+
+3.2: by end of Thu Nov 30th, Ibrahim will SEND updating EXCEL sheet for supply chain conting item/ default supplier source (imported/local), default supplier name, 
+standard lead time as defined above, minimum order qunatity restrictions,
+3.3: Procurement not allowed to change the source if it affect the lead time after raising the PR,
+3.4: Procurement have to inform Planning ahead of time about any source changes if it is affecting the lead time.
+
+3.4+: Planning has to clear all released PRs in the system, by end of Thu Nov 2nd.
+
+3.5: Procurement have to convert any PR released by planning into PO (for 3rd party vendors) before the end of the day, if the PR is released before 14:00PM
+3.6: Till the approval process is changed, POM will be sending ONE list every day before 17:00PM to procurement to be released.
+3.7. Everyday morning POM will check the POs made in the previouse day, and will follow up with remaing level for approval,
+3.8. POM will communicate all the orders with the vendors and start the follow up process.
+
+3.9. For BASF internally procured item, POM will do everything.
+3.10. For 3rd part items POs, procurement will create the PO, including the creation of the conditions lines.
+3.11. Once the clearing documents and any charges be availabe, POM will update the conditions values in the system for all POs, if the line is not created in the PO, 
+POM will communicate with procurement to create it (i.e. POM will not create the condition line in the POs related to 3rd paty vendors, if it is not created before).
+
+3.12: Opened POs
+Do we know all our opened POs with ALL our vendors (local, BASF, internal, Merchandized, Evrything)?
+No, Ibrahim will extract list of opened POs from the system today and tomorrow, check it along with Ibdah and Radi, and close unrequired item, so we have clean 
+(correct and updated) info in the system, Zainab will ask Mr. Sabeer to guide/train her how to get opened POs list from the system, she will get the list from the system, and cross check with her tracking 
+sheet, and communicate it back to procurement by end of Thu Nov 2nd. and confirm back by Sunday Nov 5th that her tracking sheet is updated with all opened POs.
+
+3.13: Orders under clearance
+Do we know ALL the shipments under clearance (in Dammam port, in airport, in Batha border, or any other border or entry point of the kingdom of Saudi Arabia)? 
+Zainab confirmed the answer is yes, and she aware about every single shipment under clearance.
+
+3.14: Purchase Orders tracking
+Do we have clear tracking system/sheet, and fully updated?
+Zainab confirmed the answer is YES, and she has an updated tracking list that is showning the status of all the orders.
+
+3.15: Air freight shipments
+Do we follow/track air freight shipments in seperate sheet or with other shipments? and is it enough or have gaps need to be improved.
+As per Zainab and Radi, now all imported shipments are in the same sheet, but will be splitted today so that we have seperate sheet for airfreight shipment, 
+and this sheet will be continuously updated.
+
+3.16: Items lot size
+3.16.1 By end of Dec 2017 procurement will send to Planning an updated list of lot sizes to be updated in the system
+3.16.2 Till that done, the system is accepting +/- 10%
+3.16.3 If the system did not accept the variance, warehouse will communicate with procurement to fix the PO Qty before recieving.
+
+3.17. Forecasts needs by procurements to be communicated with suppliers
+3.17.1 Every mid of quarter (i.e. 15th of the second month of each quarter) planning will send to procurement updated forecasted list of all items for the next quarter
+3.17.2 Whenever required procurement will communicate the needs to planning, and planning will provide the required within 1 week.
+3.17.3 Whenever triggered, planning will updated procurement for any changes in the forecast
+
+4. Point of communication between procurement and supply chain is Planning.
+
+
+
+

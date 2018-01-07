@@ -1,0 +1,36 @@
+{
+  "actions": [
+    {
+      "name": "MAIN",
+      "intent": {
+        "name": "actions.intent.MAIN"
+      },
+      "fulfillment": {
+        "conversationName": "app-conv"
+      }
+    },
+    {
+      "name": "HELP",
+      "intent": {
+        "name": "app.StandardIntents.HELP",
+        "trigger": {
+          "queryPatterns": [
+            "Help",
+            "HELP",
+            "help"
+          ]
+        }
+      },
+      "fulfillment": {
+        "conversationName": "app-conv"
+      }
+    }
+  ],
+  "conversations": {
+    "app-conv": {
+      "name": "app-conv",
+      "url": "https://us-central1-sillytest-16570.cloudfunctions.net/sayNumber",
+      "fulfillmentApiVersion": 2
+    }
+  }
+}

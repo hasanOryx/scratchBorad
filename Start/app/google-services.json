@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "239444065122",
+    "firebase_url": "https://start-e5733.firebaseio.com",
+    "project_id": "start-e5733",
+    "storage_bucket": "start-e5733.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239444065122:android:3566a5fc539f3d5f",
+        "android_client_info": {
+          "package_name": "tk.zillion.start"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239444065122-aseulsts5uhq2a18eigub55m8p2dsq3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tk.zillion.start",
+            "certificate_hash": "8A9B950D9E66F2EB35E1060A6D68231A6012C38E"
+          }
+        },
+        {
+          "client_id": "239444065122-3irt9cjpjjstmrh3sg2c43v58k79t3u8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6LOUvpkpMSRGM1R_UeXyLpv3o7IE4xeM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239444065122-3irt9cjpjjstmrh3sg2c43v58k79t3u8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

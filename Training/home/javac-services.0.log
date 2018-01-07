@@ -1,0 +1,2 @@
+INFO	?	main	2017-02-04T15:03:13.830Z	org.javacs.Main#connectToNode	Connected to parent using socket on port 55282
+INFO	?	main	2017-02-04T15:03:14.003Z	org.javacs.JavaLanguageServer#doLint	Lint [e:\AndroidStudioProjects\app\src\main\java\tk\zillion\app1\CustomViews\Card.java]

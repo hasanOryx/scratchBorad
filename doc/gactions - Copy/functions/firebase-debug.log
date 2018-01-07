@@ -1,0 +1,64 @@
+[debug] [2017-10-22T17:05:02.233Z] ----------------------------------------------------------------------
+[debug] [2017-10-22T17:05:02.289Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Home\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --only functions
+[debug] [2017-10-22T17:05:02.290Z] CLI Version:   3.13.1
+[debug] [2017-10-22T17:05:02.291Z] Platform:      win32
+[debug] [2017-10-22T17:05:02.291Z] Node Version:  v8.7.0
+[debug] [2017-10-22T17:05:02.385Z] Time:          Sun Oct 22 2017 20:05:02 GMT+0300 (Arab Standard Time)
+[debug] [2017-10-22T17:05:02.385Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-22T17:05:02.750Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-22T17:05:02.750Z] > authorizing via signed-in user
+[debug] [2017-10-22T17:05:02.762Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-10-22T17:05:02.762Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/xaKzmaMcdvUT1gd9GGk_gNzoXBcZiYsP3FQNp7RbET8Eex0BSHMh1sX7LxDOvikF',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Oct 22 2017 20:05:02 GMT+0300 (Arab Standard Time)
+[debug] [2017-10-22T17:05:05.407Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T17:05:06.328Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/sillytest-16570  
+ Sun Oct 22 2017 20:05:06 GMT+0300 (Arab Standard Time)
+[debug] [2017-10-22T17:05:07.799Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T17:05:07.799Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/sillytest-16570/tokens  
+ Sun Oct 22 2017 20:05:07 GMT+0300 (Arab Standard Time)
+[debug] [2017-10-22T17:05:08.898Z] <<< HTTP RESPONSE 200
+[info] 1
+[info] 
+[info] === Deploying to 'sillytest-16570'...
+[info] 
+[info] i  deploying functions
+[debug] [2017-10-22T17:05:12.247Z] > [functions] package.json contents: {
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "Cloud Functions for Firebase",
+  "main": "index.js",
+  "dependencies": {
+    "actions-on-google": "^1.0.0",
+    "firebase-admin": "~5.4.0",
+    "firebase-functions": "^0.7.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "firebase serve --only functions",
+    "deploy": "firebase deploy --only functions",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hasan Yousef",
+  "license": "ISC"
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[info] i  runtimeconfig: ensuring necessary APIs are enabled...
+[debug] [2017-10-22T17:05:12.269Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/sillytest-16570?view=CONSUMER_VIEW  
+ Sun Oct 22 2017 20:05:12 GMT+0300 (Arab Standard Time)
+[debug] [2017-10-22T17:05:12.273Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/sillytest-16570?view=CONSUMER_VIEW  
+ Sun Oct 22 2017 20:05:12 GMT+0300 (Arab Standard Time)
+[debug] [2017-10-22T17:05:14.091Z] <<< HTTP RESPONSE 200
+[info] +  runtimeconfig: all necessary APIs are enabled
+[debug] [2017-10-22T17:05:14.292Z] <<< HTTP RESPONSE 200
+[info] +  functions: all necessary APIs are enabled
+[debug] [2017-10-22T17:05:14.295Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/sillytest-16570  
+ Sun Oct 22 2017 20:05:14 GMT+0300 (Arab Standard Time)
+[debug] [2017-10-22T17:05:14.299Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/sillytest-16570/apiKeys  
+ Sun Oct 22 2017 20:05:14 GMT+0300 (Arab Standard Time)
+[debug] [2017-10-22T17:05:15.915Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T17:05:16.199Z] <<< HTTP RESPONSE 200

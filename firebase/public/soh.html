@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>B+K Inventory</title>
+  </head>
+  
+  <style>
+      
+      tbody {
+	float: left; display: block; overflow-y: scroll; max-height: 290px;
+}
+
+      th {
+	display: block;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    padding: 5px;
+    text-align: left;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+
+table#t01 tr:hover {
+    background-color: orangered;
+}
+
+table#t01 th	{
+    background-color: black;
+    color: white;
+}
+</style>
+
+  <body>
+
+    <h1>Raw Matwerial and Finished Goods Inventory</h1>
+     <ul></ul>
+<script type="text/javascript">
+function tableCreate(){
+    var body = document.body,
+        tbl  = document.createElement('table');
+        tbl.setAttribute('id', 't01');
+
+    var th = document.createElement('th');
+    th.style.height = '25px';
+    for (var j=0; j<3; j++){
+       var tdh = document.createElement('td');
+         if(j === 0) { tdh.innerHTML = "Item"; tdh.style.width = '230px'; }
+         if(j === 1) { tdh.innerHTML = "Whs"; tdh.style.width = '100px'; }
+         if(j === 2) { tdh.innerHTML = "Qty"; tdh.style.width = '75px'; }
+       th.appendChild(tdh);
+    } 
+    tbl.appendChild(th);
+    body.appendChild(tbl);
+}
+tableCreate();
+
+
+       </script>
+
+    <script type="text/javascript">
+    'use strict'
+      var logger = document.getElementsByTagName('ul')[0],
+         // socket = new EventSource('/');
+       //   socket = new EventSource('http://localhost:7000/');
+      //     socket = new EventSource('http://192.168.10.1:7000/');
+           socket = new EventSource('http://62.149.89.140:7000/');
+
+      var log = function(text) {
+        logger.innerHTML = '<li>' + text + '</li>';
+      };
+
+      socket.onopen = function() {
+        log('OPEN');
+      };
+
+      socket.onmessage = function(event) {
+        log(event.data+' @: ' + event.lastEventId);           
+      };
+
+      socket.addEventListener('rmSoH', function(event) {
+           var data = JSON.parse(event.data);
+          log('Last update '+ data.length +' Lines, read @: ' + event.lastEventId);
+          
+           var table = document.getElementById("t01");
+                      console.log('run');
+              if(table.childNodes.length === 1)
+              {var tbdy  = document.createElement('tbody');
+              
+                         var i;
+                        for (i = 0; i < data.length; i++) {
+                             var tr = tbdy.insertRow(); 
+                             for(var j = 0; j < 3; j++) // 
+                             { var td = tr.insertCell();
+                     td.style.width = '100px';
+                     if (j===0) td.style.width = '230px';
+                     if (j===1) td.style.width = '70px';
+                    }
+                  }
+              table.appendChild(tbdy);
+              }
+              else{
+              if (table.childNodes[1].childNodes.length !== data.length) table.childNodes[1].remove();
+              }
+              /*
+              Else, the table body already exisit, and table lines are matching the recieved lines from server, just fill them.
+              */
+           for (var k = 0; k < data.length; k++) { 
+                if(data[k].Qty === 0) table.rows[k].style.backgroundColor='yellow';
+                table.rows[k].cells[0].innerHTML = data[k].item;
+                table.rows[k].cells[1].innerHTML = data[k].Whs;
+                table.rows[k].cells[2].innerHTML = data[k].Qty;
+             }      
+   });
+      
+      socket.addEventListener('tata', function(event) {
+          console.log(event.lastEventId + ' : '+event.data);
+      });
+
+      socket.onerror = function(event) {
+        log('ERROR: ' + event.message);
+      };
+    </script>
+
+  </body>
+</html>

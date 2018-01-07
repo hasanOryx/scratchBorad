@@ -1,0 +1,1285 @@
+last_download_time: 1509128176
+pattern {
+  hwconfig {
+    hostinfo {
+      os_platform: "Mac"
+    }
+  }
+  featureaction {
+    feature: GLESDynamicVersion
+    enable: false
+  }
+  featureaction {
+    feature: HVF
+    enable: true
+    min_version {
+      major: 26
+      minor: 1
+      patch: 3
+    }
+  }
+}
+pattern {
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "0ffa"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13ba"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13c2"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67df"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0d26"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "Intel (0x8086)"
+      model: "Intel Iris Pro"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "1906"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "1902"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "191e"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "1916"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "191b"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "1912"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "191d"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "1926"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "193b"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "193d"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "5902"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "5906"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "590a"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "590b"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "590e"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "5913"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "5915"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "5917"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "5912"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "5916"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "591a"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "591b"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "591d"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "591e"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "5921"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "5926"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "592a"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "592b"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "5932"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "593a"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "593b"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "593d"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67ef"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6646"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6647"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6649"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6658"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "665c"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "665d"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6828"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6829"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "682c"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6830"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6831"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6835"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6837"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "683d"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67e0"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67e3"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67e8"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67eb"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67ef"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67ff"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67e1"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67e7"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67e9"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67c0"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67c1"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67c2"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67c4"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67c7"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67d0"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67df"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67c8"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67c9"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67ca"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67cc"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "67cf"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6980"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6981"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6985"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6986"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6987"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6995"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "699f"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6860"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6861"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6862"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6863"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6864"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6867"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "6868"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "686c"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "687f"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "1002"
+      device_id: "15dd"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "0x1140"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "0x11a0"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "0x11a3"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "0x119f"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "0x11e3"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "0x119d"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "0x11e0"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "0x11e1"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "0x11e2"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "0x11e3"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1201"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1200"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1004"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1184"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1187"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13c0"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13c1"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13c2"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13c3"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13d7"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13d8"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13d9"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13da"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13f0"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13f1"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13f2"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13f3"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13f8"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13f9"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13fa"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "13fb"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1617"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1618"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1619"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "161a"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1667"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1b00"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1b01"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1b30"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1b38"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1b70"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1b78"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1b80"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1b81"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1b82"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1b83"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1b84"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1b06"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1ba0"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1ba1"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1bb0"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1bb1"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1bb3"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1bb4"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1bb6"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1bb7"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1bb8"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1be0"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1be1"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c00"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c01"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c02"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c03"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c20"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c30"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c35"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c60"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c61"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c62"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c70"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c80"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c81"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c82"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c8c"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c8d"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1c8e"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1ca7"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1ca8"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "10de"
+      device_id: "1caa"
+    }
+  }
+  featureaction {
+    feature: GLAsyncSwap
+    enable: true
+  }
+  featureaction {
+    feature: GLESDynamicVersion
+    enable: true
+    min_version {
+      major: 26
+      minor: 1
+    }
+  }
+}
+pattern {
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0166"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0162"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "016a"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0402"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0412"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0416"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "041a"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "041b"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "041e"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0c12"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0c16"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0c1a"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0c1b"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0c1e"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0d12"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0d16"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0d1a"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0d1b"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0d1e"
+    }
+  }
+  featureaction {
+    feature: ForceANGLE
+    enable: true
+    min_version {
+      major: 26
+      minor: 1
+    }
+  }
+  featureaction {
+    feature: GLESDynamicVersion
+    enable: false
+  }
+}
+pattern {
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0046"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0102"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0116"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0152"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0156"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "015a"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0a16"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "0a1e"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "a001"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "a002"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "a011"
+    }
+  }
+  hwconfig {
+    hostgpuinfo {
+      make: "8086"
+      device_id: "a012"
+    }
+  }
+  featureaction {
+    feature: ForceSwiftshader
+    enable: true
+    min_version {
+      major: 26
+      minor: 1
+    }
+  }
+  featureaction {
+    feature: GLESDynamicVersion
+    enable: false
+  }
+}
+pattern {
+  hwconfig {
+    hostinfo {
+      os_platform: "Mac"
+    }
+  }
+  hwconfig {
+    hostinfo {
+      os_platform: "Linux"
+    }
+  }
+  featureaction {
+    feature: ForceANGLE
+    enable: false
+  }
+}

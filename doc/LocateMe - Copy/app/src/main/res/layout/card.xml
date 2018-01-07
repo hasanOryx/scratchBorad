@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_view"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_background"
+    android:paddingBottom="70dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is 14sp Sans bold!"
+        android:textStyle="italic"
+        android:textSize="14sp"
+        android:typeface="sans"
+        android:textColor="#00ccff"
+        android:textColorLink="#8DE67F"
+        android:autoLink="all"
+        android:linksClickable="true"
+        />
+
+    <Button
+        android:id="@+id/btn_card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:theme="@style/PrimaryFlatButton" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" />
+
+    <Button
+        android:id="@+id/btn_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        />
+</LinearLayout>

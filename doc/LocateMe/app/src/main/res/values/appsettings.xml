@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <!-- Tab Names in the settings screen -->
+        <string name="tab_spouse">SPOUSE</string>
+        <string name="tab_father">FATHER</string>
+        <string name="tab_mother">MOTHER</string>
+        <string name="tab_friend">FRIEND</string>
+        <!-- Initial names of trusted contacts-->
+        <string name="trusted_name">Noting saved</string>
+        <!-- Add and Remove rusted contact-->
+        <string name="trusted_add">PICK NUMBER</string>
+        <string name="trusted_remove">REMOVE NUMBER</string>
+        <!-- Settings and settings elements -->
+        <string name="settings_title">SETTINGS</string>
+        <string name="settings_wru">Respond to `Where are you` SMS</string>
+        <string name="settings_unmute">Unmute, ring the phone if called</string>
+        <string name="settings_answer">Answer call automatically</string>
+        <string name="settings_answer_details">
+                If got 2 missed calls from this number within one minutes,\n
+                then answer automatically the third call with speaker opened.
+        </string>
+        <string name="settings_sms_help">
+                Send your location in a help SMS request\n
+                to your trusted contact
+        </string>
+        <!-- Initial names of trusted contacts-->
+        <string name="app_close">CLOSE</string>
+</resources>

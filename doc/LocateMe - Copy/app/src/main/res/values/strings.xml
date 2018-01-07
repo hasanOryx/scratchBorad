@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">LocateMe</string>
+    <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
+    <string name="banner_ad_unit_id">ca-app-pub-8570742268714019/2489182880</string>
+
+    <string name="preference_file_key">"preference_file"</string>
+    <string name="setting_shown">"settingScreenShownPref"</string>
+    <string name="introduction_shown">"introductionScreenShownPref"</string>
+    <string name="introduction_changed">"introductionScreenChangedPref"</string>
+    <integer name="las_introduction_version">9</integer>
+    <bool name="introduction_changed_default">false</bool>
+    <string name="saved_version">"versionPref"</string>
+    <integer name="saved_version_default">1</integer>
+
+    <string name="htmlFormattedText">
+    <![CDATA[
+        Please <a href="http://highlight.com">let us know</a> if you have <b>feedback on this</b> or if
+        you would like to log in with <i>another identity service</i>. Thanks!
+    ]]>
+</string>
+
+    <string name="app_msg">
+        Enter the trusted number,\n
+        The number that you allow your mobile to SMS your location upon getting its request.\n
+
+        The number should start with ( + ) and the country code,\n
+        For example numbers in India should start by +91\n
+        \n
+        If you pick the number from you contacts, be sure i start with the correct country code\n
+    </string>
+
+    <string-array name="planets_array">
+        <item>SPOUSE</item>
+        <item>PARENT</item>
+        <item>FATHER</item>
+        <item>MOTHER</item>
+        <item>FRIEND</item>
+        <item>LOVER</item>
+    </string-array>
+</resources>

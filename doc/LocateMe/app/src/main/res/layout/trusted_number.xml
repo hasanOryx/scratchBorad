@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/trusted">
+    <!-- Logo Start-->
+    <ImageView android:src="@drawable/logo"
+        android:layout_width="363dp"
+        android:layout_height="174dp"
+        android:layout_marginLeft="10dip"/>
+
+
+
+    <Button
+        android:text="Pick first trusted Contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_pick_dad" />
+
+    <Button
+        android:text="Pick second trusted Contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_pick_mum" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/trustedperson" />
+
+    <Button
+        android:text="CLOSE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_close" />
+
+</LinearLayout>

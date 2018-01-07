@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="button_show">Show</string>
+    <string name="button_2">Second</string>
+    <string name="custom">custom</string>
+    <string name="welcome_message">Hello, %1$s! You have %2$d new messages.</string>
+</resources>

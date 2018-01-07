@@ -1,0 +1,88 @@
+{
+    "actions": [
+      {
+        "name": "MAIN",
+        "intent": {
+          "name": "actions.intent.MAIN"
+        },
+        "fulfillment": {
+          "conversationName": "app-conv"
+        }
+      },
+
+      {
+        "name": "BUY",
+        "intent": {
+          "name": "app.BUY",
+          "parameters": [{
+            "name": "color",
+            "type": "SchemaOrg_Color"
+          }],
+          "trigger": {
+            "queryPatterns": [
+              "find some $SchemaOrg_Color:color sneakers",
+              "buy some blue suede shoes",
+              "get running shoes"
+            ]
+          }
+        },
+        "fulfillment": {
+          "conversationName": "app-conv"
+        }
+      },
+      {
+        "name": "TEXT",
+        "intent": {
+          "name": "app.TEXT",
+          "trigger": {
+            "queryPatterns": [
+              "check on my order",
+              "see order updates",
+              "check where my order is"
+            ]
+          }
+        },
+        "fulfillment": {
+          "conversationName": "app-conv"
+        }
+      },
+      {
+        "description": "Raw input response",
+        "name": "Raw input",
+        "fulfillment": {
+          "conversationName": "app-conv"
+        },
+      "intent": {
+        "name": "raw.input",
+        "trigger": {
+          "queryPatterns": [
+            "getting some advice",
+            "feeling better",
+            "how to feel better"
+          ]
+        }
+      }
+    }
+      {
+        "name": "HELP",
+        "intent": {
+          "name": "app.HELP",
+          "trigger": {
+            "queryPatterns": [
+              "Help"
+            ]
+          }
+        },
+        "fulfillment": {
+          "conversationName": "app-conv"
+        }
+      }
+    ],
+    "conversations": {
+      "app-conv": {
+        "name": "app-conv",
+        "url": "https://us-central1-sillytest-16570.cloudfunctions.net/sayNumber",
+        "fulfillmentApiVersion": 2
+      }
+    }
+  }
